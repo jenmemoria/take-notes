@@ -28,9 +28,9 @@ public class Ex05list {
 		locC = floor - eleC;
 		
 		ArrayList<Integer> dis = new ArrayList<>();
-		for (int i : dis) {
-			dis.add(Math.abs(i));
-		}
+		dis.add(Math.abs(locA));
+		dis.add(Math.abs(locB));
+		dis.add(Math.abs(locC));
 //		dis.add(locA);
 //		dis.add(locB);
 //		dis.add(locC);
@@ -39,6 +39,15 @@ public class Ex05list {
 		
 		System.out.println("내 위치에서 가장 가까운 거리 : " + Collections.min(dis));
 		
+		if(true)		min = locA;
+		if(min > locB)	min = locB;
+		if(min > locC)	min = locC;
+		
+		if(min == Math.abs(locA))			System.out.println("A 엘리베이터가 이동합니다.");
+		else if (min == Math.abs(locB))		System.out.println("B 엘리베이터가 이동합니다.");
+		else /*if(min == distC)*/			System.out.println("C 엘리베이터가 이동합니다.");
+		
+		sc.close();
 		
 	}
 }
