@@ -35,12 +35,25 @@ public class Quiz1 {
 		System.out.println(sum);
 		
 		// 5) 1부터 100사이의 정수 중, 7의 배수만 한 줄에 출력하세요.
-		n1 = 1; 
-		while (n1 <= 100) {
-			++n1;
-			if(n1 % 7 == 0) {
-				System.out.print(n1 + " ");
-			}
+//		n1 = 1; 
+//		while (n1 <= 100) {
+//			++n1;
+//			if(n1 % 7 == 0) {
+//				System.out.print(n1 + " ");
+//			}
+//		}
+//		n1 = 1;
+//		while(n1 < 101) {
+//			if(n1 % 7 == 0) {
+//				System.out.print(n1 + " ");
+//			}
+//			n1++;
+//		}
+		n1 = 7;				// 초기값 변경
+		while(n1 < 101) {	// 조건은 그대로
+			System.out.print(n1 + " ");	
+			n1 += 7;		// 7씩 증가하기 때문에 if를 쓰지 않아도 된다.
 		}
+		System.out.println();
 	}
 }
