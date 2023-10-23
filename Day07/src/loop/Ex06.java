@@ -21,7 +21,7 @@ public class Ex06 {
 		
 		System.out.println("arr : " + Arrays.toString(arr));
 		
-		// 배열의 1번째 글자 중에서, 짝수번째 글자가 알파벳 소문자이면 대분자로 바꾸기.
+		// 배열의 1번째 글자 중에서, 짝수번째 글자가 알파벳 소문자이면 대문자로 바꾸기.
 		// 배열에서 0번째도 짝수번째라고 포함된다.
 		
 		for(int i = 0; i < arr.length; i++) {
