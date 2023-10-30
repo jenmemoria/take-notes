@@ -34,12 +34,12 @@ public class Ex08 {
 		}
 		System.out.println(Arrays.toString(arr));
 		
-		long start = System.currentTimeMillis();	// 정렬 전 현재 시간
-		selectionSort(arr);
-		long end = System.currentTimeMillis();		// 정렬 후 현재 시간
+//		long start = System.currentTimeMillis();	// 정렬 전 현재 시간
+//		selectionSort(arr);
+//		long end = System.currentTimeMillis();		// 정렬 후 현재 시간
 		
-		System.out.println(Arrays.toString(arr));
-		System.out.printf("%.2f sec\n", (end - start) / 1000.0); // 걸린 시간
+//		System.out.println(Arrays.toString(arr));
+//		System.out.printf("%.2f sec\n", (end - start) / 1000.0); // 걸린 시간
 		
 	}
 }
